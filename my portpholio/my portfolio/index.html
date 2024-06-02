@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa</title>
+    <link rel="icon" type="image/svg+xml" href="./Images/Logo.png" />
+    <link rel="stylesheet" href="CSS/index.CSS">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://kit.fontawesome.com/e40efcfb88.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="popup" style="display:none;">
+        <p>Thank you for your message! I'll be in touch with you soon... </p>
+    </div>
+    <div class="main">
+        <div class="header">
+            <div class="subhead">
+                <div id="logo"> <span style="color: rgb(255, 0, 98);">M </span> <span>aa</span></div>
+            </div>
+            <div class="subhead1">
+                <i class="fas fa-times"></i>
+                <div class="head"><a href="#"> Home </a></div>
+                <div class="head"><a href="#about"> About </a></div>
+                <div class="head"><a href="#portfolio">Portfolio</a></div>
+                <div class="head"><a href="#contact">Contact </a></div>
+
+            </div>
+            <div class="side">
+                <a href="resume.pdf"><i class="fa-solid fa-file-arrow-down"></i></a>
+                <i class="fas fa-bars menu"></i>
+            </div>
+        </div>
+        <div class="headerbodypart">
+            <div class="headertext">
+                <p>Software Engineer</p>
+                <h1 style="color: aliceblue;">Hi, I'm <span style="color: rgb(255,0,98);">Anurag</span> <br> Kumar Roy From
+                    Rajkot</h1>
+
+                <div class="buttons">
+                    <a href="#portfolio"><button class="btn btn2">Portfolio <i
+                                class="fa-solid fa-angle-down"></i></button> </a>
+
+                    <a href="resume.pdf"><button class="btn btn2">Resume<i
+                                class="fa-solid fa-file-arrow-down"></i></button> </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------- About --------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src=".\Images\myimage.jpg" width="100%" style="border-radius:10px;">
+                </div>
+                <div class="about-col-2">
+                    <h2 style="font-size:40px;">About Me</h2>
+                    <p>My Name is Anurag Kumar Roy. I am persuing 
+                        Graduation from <br><b style="color:skyblue ;">Marwadi Education Foundation Group of Instituition </b> which comes under the <b style="color:aquamarine ;">Gujarat Technological University Ahmedabad.
+                        I did many mini projects and worked as a leader in academic projects. <br>
+                        my strength is my passion that i am following.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopment</span><br>Designing frontend websites</li>
+                            <li><span>word press</span><br>Designing wordpress websites</li>
+                            <li><span>Competitive Programming</span><br>solving Competitive Problems</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>working on a iot attack cyber security research paper</span><br>present</li>
+                            <li><span>Did a Hospital Management System Project</span><br>6th Sem</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>SSC from UMS Radhiyam, Darbhanga, Bihar</li>
+                            <li><span>2020</span><br>HSC from MMTM College, Darbhanga, Bihar</li>
+                            <li><span>Pursuing 2021-present</span><br>BE from Gujarat Technological University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------- Portpholio ---------------------------------------------- -->
+
+    <div id="portpholio">
+        <div class="container">
+            <h2 style="font-size:40px;">My Work</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images\image.png">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>This System is a clone version of netflix homepage.
+                        </p>
+                        <a href="https://github.com/roy-anurag/netflix-clone"><i
+                                class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images\tempimage.png">
+                    <div class="layer">
+                        <h3>Temperature Convertor</h3>
+                        <p>The Temperature converter converts the celcius to fahrenheit and fahrenheit to celcius.
+                        </p>
+                        <a href="https://github.com/roy-anurag/temperature.convertor"><i
+                                class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/roy-anurag?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------------------------------------------- Contact ---------------------------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subb-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> anurag108kumarroy@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 6205324806</p>
+                    <div class="social-icons">
+                        <a href="https://www.geeksforgeeks.org/user/anurag109kum8b2u/" target="_blank"><img
+                                src="./Images/geeksforgeeks.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/anurag-kumar-roy-32597b247/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/roy-anurag" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Let's Connect</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Maa. made by Anurag Kumar Roy</p>
+        </div>
+    </div>
+
+    <Script src="JS/app.js"></Script>
+    <script>
+        function showPopup() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'block';
+            setTimeout(function () {
+                popup.style.animation = 'fadeOut 0.5s ease forwards';
+                setTimeout(function () {
+                    popup.style.display = 'none';
+                }, 500);
+            }, 5000);
+        }
+        // const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => setTimeout(function () {
+                    showPopup();
+                }, 100))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
